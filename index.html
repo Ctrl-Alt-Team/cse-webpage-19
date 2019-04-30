@@ -31,6 +31,18 @@
     <script src='js/elevator.js'></script>
     <!-- http://tholman.com/elevator.js/ -->
 
+        <!-- SVG FILTER -->
+        <svg style="display:none;">
+            <filter id="linear">
+                <feColorMatrix
+                  type="matrix"
+                  values="-0.4 1.6 0.3 0 -0.1
+                          -0.7 1 0.2 0.8 -2.2
+                          0.1 -1 2.5 -0.3 0.4
+                          -2 -0.8 3 0.9 0 "/>
+              </filter>
+          </svg>
+
 </head>
 
 <body data-spy="scroll" data-target="#navBar">
@@ -95,7 +107,6 @@
     </header>
 
     <!-- register -->
-    <!--
     <section id="schedule">
         <div class="container-fluid">
             <div class="row" id="registration">
@@ -113,7 +124,7 @@
                 <div class="col-sm-4">
                     <div class="card text-white bg-dark mb-3" style="max-width: 100%;">
                         <div class="card-body">
-                            <h5 class="countDown red">May 4th</h5>
+                            <h5 class="countDown red">May 10th</h5>
                             <p class="card-text">
                                 <b class="red">16:45 - 17:00</b>
                                 <br>Registration
@@ -137,7 +148,7 @@
                 <div class="col-sm-4">
                     <div class="card text-white bg-dark mb-3" style="max-width: 100%;">
                         <div class="card-body">
-                            <h5 class="countDown red">May 5th</h5>
+                            <h5 class="countDown red">May 11th</h5>
                             <p class="card-text">
                                 <i>
                                     <center>Breakfast in the morning</center>
@@ -149,14 +160,14 @@
                                 <b class="red">13:00 - 14:00</b>
                                 <br>Lunch (rumor has it BBQ
                                 <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/134/meat-on-bone_1f356.png">
-                                <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/134/poultry-leg_1f357.png">)
+                                <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/185/hamburger_1f354.png">
                                 <br>
                                 <b class="red">14:00 - 18:00</b>
                                 <br>Coding
                                 <br>
                                 <b class="red">18:00 - 19:00</b>
-                                <br>Pizza
-                                <img class="emoji" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/twitter/134/slice-of-pizza_1f355.png">
+                                <br>Dinner
+                                <img class="emoji" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/185/taco_1f32e.png">
                                 + Progress check-up.
                                 <br>
                                 <b class="red">19:00 - 22:00</b>
@@ -170,7 +181,7 @@
                 <div class="col-sm-4">
                     <div class="card text-white bg-dark mb-3" style="max-width: 100%;">
                         <div class="card-body">
-                            <h5 class="countDown red">May 6th</h5>
+                            <h5 class="countDown red">May 12th</h5>
                             <p class="card-text">
                                 <i>
                                     <center>Brunch food will be around the whole morning - no lunch!</center>
@@ -195,7 +206,6 @@
             </div>
         </div>
     </section>
-    -->
 
     <!-- scroll to top button -->
     <button onclick="elevator.elevate()" id="scroll2top" type="button" class="btn btn-warning hideButt">Scroll to Top</button>
@@ -783,7 +793,7 @@
                         </li>
                         <ul>
                             <li>Participants need to register before deadline of
-                                <strong>April 30, 2018</strong>. However, the registration follows a first come, first
+                                <strong>May 9, 2019</strong>. However, the registration follows a first come, first
                                 served principle.
                                 When the maximum number of participants is reached, the registration page will reflect
                                 that
