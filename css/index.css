@@ -197,7 +197,7 @@ main {
     text-decoration: none;
     text-align: center;
     font-size: 1.5vw;
-    color: rgb(53, 53, 53);
+    color: #300824;
 }
 
 #case-content ul {
@@ -230,7 +230,7 @@ main {
 
 /* --------- team --------- */
 #team {
-    background-color: rgb(53, 53, 53); /*#009198*/
+    background-color: #194892; /*#009198*/
     color: white;
 }
 
@@ -342,7 +342,7 @@ td img{
 
 /* --------- faq --------- */
 #faq {
-    background-color: rgb(53, 53, 53); /*#FCB500*/
+    background-color: #300824; /*#FCB500*/
     color: white;
     height: 100%;
     width: 100%;
@@ -387,7 +387,7 @@ td img{
 /* --------- terms --------- */
 #terms{
     background-color: white;
-    color: rgb(53, 53, 53);
+    color: #300824;
     padding-bottom: 5rem;
 }
 
@@ -463,7 +463,7 @@ td img{
 /* --------- partners --------- */
 #partners {
     background-color: #b4e7fd;
-    color: rgb(53, 53, 53);
+    color: #300824;
 }
 
 #partnerText {
