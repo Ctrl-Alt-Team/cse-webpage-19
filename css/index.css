@@ -403,7 +403,7 @@ td img{
     margin-right: 1rem;
     padding: 2rem 3rem 1.5rem 2rem;
 
-    background-color: rgb(206, 206, 206);
+    background-color: #b4e7fd;
     border-radius: .25rem;
 }
 
@@ -462,7 +462,7 @@ td img{
 
 /* --------- partners --------- */
 #partners {
-    background-color: white;
+    background-color: #b4e7fd;
     color: rgb(53, 53, 53);
 }
 
