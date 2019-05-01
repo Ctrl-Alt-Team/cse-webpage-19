@@ -19,33 +19,34 @@ body{
     margin:0;
     position: relative;
 
-    background: linear-gradient(136deg, #ed4aff, #342bd7, #219b69);
+    background: linear-gradient(136deg, #c049d8, #342bd7, #219b69);
     background-size: 600% 600%;
-    -webkit-animation: gradient 4s ease infinite;
-    -moz-animation: gradient 4s ease infinite;
-    -o-animation: gradient 4s ease infinite;
-    animation: gradient 4s ease infinite;
+
+    -webkit-animation: gradient 33s ease infinite;
+    -moz-animation: gradient 33s ease infinite;
+    -o-animation: gradient 33s ease infinite;
+    animation: gradient 33s ease infinite;
 }
 
 @-webkit-keyframes gradient {
-    0%{background-position:0% 4%}
-    50%{background-position:100% 97%}
-    100%{background-position:0% 4%}
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
 }
 @-moz-keyframes gradient {
-    0%{background-position:0% 4%}
-    50%{background-position:100% 97%}
-    100%{background-position:0% 4%}
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
 }
 @-o-keyframes gradient {
-    0%{background-position:0% 4%}
-    50%{background-position:100% 97%}
-    100%{background-position:0% 4%}
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
 }
 @keyframes gradient { 
-    0%{background-position:0% 4%}
-    50%{background-position:100% 97%}
-    100%{background-position:0% 4%}
+    0%{background-position:17% 0%}
+    50%{background-position:84% 100%}
+    100%{background-position:17% 0%}
 }
 
 main {
@@ -623,14 +624,10 @@ td img{
         font-size: 45px;
     }
     #registration a{
-        padding-left: 25%;
         text-align: center;
     }
     #registration img {
         display: none;
-    }
-    #registration a h2{
-        border: .5rem solid rgb(255, 255, 255);
     }
     #navItem{
         font-size: 15px;
