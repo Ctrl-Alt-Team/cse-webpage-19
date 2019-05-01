@@ -9,16 +9,43 @@ font-family: 'Quicksand', sans-serif; <-- paragraphs
 */
 
 /*---------------------responsive------------------------*/
-/*Viewport is the browser window size. 1vw = 1% of viewport width.
-If the viewport is 50cm wide, 1vw is 0.5cm.*/
 
 html{
     font-size: 16px;
 }
 
 body{
+    color: white;
     margin:0;
     position: relative;
+
+    background: linear-gradient(136deg, #ed4aff, #342bd7, #219b69);
+    background-size: 600% 600%;
+    -webkit-animation: gradient 4s ease infinite;
+    -moz-animation: gradient 4s ease infinite;
+    -o-animation: gradient 4s ease infinite;
+    animation: gradient 4s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@-o-keyframes gradient {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@keyframes gradient { 
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
 }
 
 main {
@@ -32,6 +59,14 @@ main {
     text-align: center;
     /*margin-top: 5%;*/
     padding: 4rem 3rem 1.5rem 4rem;
+}
+
+.light-section h2{
+    color: #194892;
+}
+
+.dark-section h2{
+    color: #b4e7fd;
 }
 
 .sectionText {
@@ -59,7 +94,6 @@ main {
 }
 /* ------------------------ Welcome ------------------------*/
 #header {
-    background-color: white;
     /*scaling*/
     background-size: 100% auto;
     background-attachment: fixed;
@@ -150,12 +184,12 @@ main {
 }
 /* --------- cases --------- */
 #cases{
-    background-color: white;
+    background-color: #b4e7fd;
     color: rgb(53, 53, 53);
     padding: 5rem 0rem;
 }
 
-#case-title{
+#case-title h2{
     font-family: Bungee;
 }
 
@@ -163,7 +197,7 @@ main {
     text-decoration: none;
     text-align: center;
     font-size: 1.5vw;
-    color: rgb(53, 53, 53);
+    color: #300824;
 }
 
 #case-content ul {
@@ -196,7 +230,7 @@ main {
 
 /* --------- team --------- */
 #team {
-    background-color: rgb(53, 53, 53); /*#009198*/
+    background-color: #194892; /*#009198*/
     color: white;
 }
 
@@ -255,6 +289,7 @@ main {
     margin-top: auto;
     height: 15vw;
     object-fit: cover;
+
 }
 
 #teamPicNames {
@@ -308,7 +343,7 @@ td img{
 
 /* --------- faq --------- */
 #faq {
-    background-color: rgb(53, 53, 53); /*#FCB500*/
+    background-color: #300824; /*#FCB500*/
     color: white;
     height: 100%;
     width: 100%;
@@ -353,7 +388,7 @@ td img{
 /* --------- terms --------- */
 #terms{
     background-color: white;
-    color: rgb(53, 53, 53);
+    color: #300824;
     padding-bottom: 5rem;
 }
 
@@ -369,7 +404,7 @@ td img{
     margin-right: 1rem;
     padding: 2rem 3rem 1.5rem 2rem;
 
-    background-color: rgb(206, 206, 206);
+    background-color: #b4e7fd;
     border-radius: .25rem;
 }
 
@@ -392,7 +427,6 @@ td img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     height: 25vw;
 }
 
@@ -406,14 +440,14 @@ td img{
     font-size: 4vw;;
     text-decoration: none;
     text-align: center;
-    color: rgb(78, 78, 78);
+    color: #342bd7;
     margin-top: 5%;
 
     display: inline-block;
     margin: .25rem 0rem .25rem .125rem ;
     padding: .5rem .25rem;
     border-radius: 2%;
-    border: 1rem solid rgb(53, 53, 53);
+    border: 1rem solid #300824;
 
 }
 
@@ -423,10 +457,14 @@ td img{
     padding-left:10%;
 }
 
+#registerBox h2{
+    background-color: #b4e7fd;
+}
+
 /* --------- partners --------- */
 #partners {
-    background-color: white;
-    color: rgb(53, 53, 53);
+    background-color: #b4e7fd;
+    color: #300824;
 }
 
 #partnerText {
@@ -553,7 +591,7 @@ td img{
 /* ------------------------ tools ------------------------*/
 
 .red{
-    color:rgb(240, 118, 118);
+    color:#ed4aff;
 }
 
 .parent{
@@ -592,14 +630,11 @@ td img{
         display: none;
     }
     #registration a h2{
-        border: .5rem solid rgb(53, 53, 53);
+        border: .5rem solid rgb(255, 255, 255);
     }
     #navItem{
         font-size: 15px;
         /*border: .5px solid rgb(218, 218, 218);*/
-    }
-    .sectionTitle h2 {
-        font-size: 9vw;
     }
     .sectionText {
         font-size: 25px;
